@@ -24,6 +24,14 @@ Every line of the file follow the next structure:
 3. CITY: City to filter in log file.
 4. ID: Id to filter in log file.
 
+#### Installation
+1. Clone or download the project.
+2. Build project
+```bash
+    mvn package
+```
+3. Use the .jar
+
 #### Usages
 ##### Without filters
 ###### Input
