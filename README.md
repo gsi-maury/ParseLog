@@ -1,9 +1,9 @@
 # ParseLog
 
-ParseLog is a JAVA library for read and filter a log file with a specific format.
+ParseLog is a JAVA library for reading and filtering a log file with a specific format.
 
 #### Log File Format
-Every line of the file follow the next structure:
+Every line of the file follows the next structure:
 1. Each line starts with F or D.
 2. If F, this is a "format" line and two formats can be provided (1 or 2).
 3. If D, this is a "data" line whose format is defined by the closest above format line.
@@ -27,9 +27,9 @@ Every line of the file follow the next structure:
 #### Installation
 1. Clone or download the project.
 2. Build project
-```bash
-    mvn package
-```
+    ```bash
+        mvn package
+    ```
 3. Use the .jar
 
 #### Usages
@@ -64,7 +64,7 @@ D Irene Owen,LONDON,15015516N
 D Dwight Roy,LONDON,87179151C
 ```
 
-##### Multiple filter
+##### Multiple filters
 ###### Input
 
 ```bash
